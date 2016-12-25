@@ -1,8 +1,13 @@
-#coding=utf-8
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
 
 import numpy as np
 import lda
 import lda.datasets
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 X = lda.datasets.load_reuters()
 vocab = lda.datasets.load_reuters_vocab()

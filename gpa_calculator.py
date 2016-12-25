@@ -1,6 +1,11 @@
-# coding=utf-8
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
 
 import xlrd
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 
 class TableReader(object):
@@ -18,6 +23,7 @@ class TableReader(object):
             gpa += float(score_list[i]) * weight_list[i]
             weight += weight_list[i]
         print "total GPA is:", gpa/weight
+
 
 if __name__ == "__main__":
     reader = TableReader('scores.xlsx')
