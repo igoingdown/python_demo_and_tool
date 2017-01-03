@@ -10,3 +10,10 @@ the gpa talbe.
 
 # lda-test.py
 just test LDA model using demo dataset.
+
+#auto-commit.sh
+use shell scripts to commit modifications automatically. It's easy and convenient.
+
+#shell-demo-change-script-files-into-executable.sh
+modify permission of normal users. Give them execution permission.
+
