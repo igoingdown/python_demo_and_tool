@@ -13,23 +13,28 @@ vzch_toy_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/v
 google_java_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/google-maps-services-java"
 
 cd $tensorflow_project_path
-bash auto_commit.sh
+bash "$python_demo_and_tool_path/auto_commit.sh"
 
 cd $java_demo_path
-bash auto_commit.sh
+bash "$python_demo_and_tool_path/auto_commit.sh"
 
 cd $python_demo_and_tool_path
-bash auto_commit.sh
+bash "$python_demo_and_tool_path/auto_commit.sh"
+
 
 cd $leetcode_path
-bash auto_commit.sh
+bash "$python_demo_and_tool_path/auto_commit.sh"
+
 
 cd $handbook_path
-bash auto_commit.sh
+bash "$python_demo_and_tool_path/auto_commit.sh"
+
 
 cd $vzch_toy_path
-bash auto_commit.sh
+bash "$python_demo_and_tool_path/auto_commit.sh"
+
 
 cd $google_java_path
-bash auto_commit.sh
+bash "$python_demo_and_tool_path/auto_commit.sh"
+
 
