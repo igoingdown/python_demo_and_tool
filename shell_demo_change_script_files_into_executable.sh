@@ -2,5 +2,16 @@
 
 for file in `ls *py`
 do
-    chmod u+x $file
+    chmod 744 $file
 done
+
+for file in `ls *sh`
+do
+    chmod 744 $file
+done
+
+for file in `ls *txt`
+do
+    chmod 644 $file
+done
+
