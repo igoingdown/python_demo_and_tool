@@ -2,5 +2,5 @@
 
 for file in `ls *py`
 do
-    chmod +x $file
+    chmod u+x $file
 done
