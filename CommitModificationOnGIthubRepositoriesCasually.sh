@@ -10,6 +10,7 @@ python_demo_and_tool_path="/Users/zhaomingxing/PycharmProjects/python_demo_and_t
 leetcode_path="/Users/zhaomingxing/Desktop/zmx/leetcode/leetcode_duplicate"
 handbook_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/PythonDataScienceHandbook"
 vzch_toy_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/vczh_toys"
+google_java_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/google-maps-services-java"
 
 cd $tensorflow_project_path
 bash auto_commit.sh
@@ -27,5 +28,8 @@ cd $handbook_path
 bash auto_commit.sh
 
 cd $vzch_toy_path
+bash auto_commit.sh
+
+cd $google_java_path
 bash auto_commit.sh
 
