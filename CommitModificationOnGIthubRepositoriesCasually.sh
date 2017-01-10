@@ -9,6 +9,7 @@ java_demo_path="/Users/zhaomingxing/IdeaProjects/hello_world/src/package_1"
 python_demo_and_tool_path="/Users/zhaomingxing/PycharmProjects/python_demo_and_tool"
 leetcode_path="/Users/zhaomingxing/Desktop/zmx/leetcode/leetcode_duplicate"
 handbook_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/PythonDataScienceHandbook"
+vzch_toy_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/vczh_toys"
 
 cd $tensorflow_project_path
 bash auto_commit.sh
@@ -25,5 +26,6 @@ bash auto_commit.sh
 cd $handbook_path
 bash auto_commit.sh
 
-
+cd $vzch_toy_path
+bash auto_commit.sh
 
