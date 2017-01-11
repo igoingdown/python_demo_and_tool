@@ -12,6 +12,7 @@ handbook_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/P
 vzch_toy_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/vczh_toys"
 google_java_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/google-maps-services-java"
 resume_path="/Users/zhaomingxing/Desktop/zmx/MyResume"
+nn_models_path="/Users/zhaomingxing/PycharmProjects/models"
 
 cd $tensorflow_project_path
 bash "$python_demo_and_tool_path/auto_commit.sh"
@@ -41,5 +42,6 @@ bash "$python_demo_and_tool_path/auto_commit.sh"
 cd $resume_path
 bash "$python_demo_and_tool_path/auto_commit.sh"
 
-
+cd $nn_models_path
+bash "$python_demo_and_tool_path/auto_commit.sh"
 
