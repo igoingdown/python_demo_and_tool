@@ -42,6 +42,6 @@ bash "$python_demo_and_tool_path/auto_commit.sh"
 cd $resume_path
 bash "$python_demo_and_tool_path/auto_commit.sh"
 
-cd $nn_models_path
-bash "$python_demo_and_tool_path/auto_commit.sh"
+# cd $nn_models_path
+# bash "$python_demo_and_tool_path/auto_commit.sh"
 
