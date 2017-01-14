@@ -13,6 +13,7 @@ vzch_toy_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/v
 google_java_path="/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/google-maps-services-java"
 resume_path="/Users/zhaomingxing/Desktop/zmx/MyResume"
 nn_models_path="/Users/zhaomingxing/PycharmProjects/models"
+copy_net_seq2seq_model_path="/Users/zhaomingxing/PycharmProjects/copyNet"
 
 cd $tensorflow_project_path
 bash "$python_demo_and_tool_path/auto_commit.sh"
@@ -42,6 +43,9 @@ bash "$python_demo_and_tool_path/auto_commit.sh"
 cd $resume_path
 bash "$python_demo_and_tool_path/auto_commit.sh"
 
-# cd $nn_models_path
-# bash "$python_demo_and_tool_path/auto_commit.sh"
+cd $copy_net_seq2seq_model_path
+bash "$python_demo_and_tool_path/auto_commit.sh"
+
+cd $nn_models_path
+bash "$python_demo_and_tool_path/auto_commit.sh"
 
