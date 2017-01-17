@@ -21,3 +21,8 @@ Modify permission of normal users. Give them execution permission.
 I have several github repositories.
 I have to do the same operations on the repositories because I usually don't know what i modified clear.
 An idea occurred to me to use shell script to do these duplicate jobs automatically.
+
+# kill_processes.sh
+Write all info of the processes into the process.out.
+Invoke the python script named get_particular_python_process_pids.py to get pids of particular python processes.
+kill all the processes specified by the pids above.
