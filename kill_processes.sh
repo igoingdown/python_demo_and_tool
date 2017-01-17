@@ -16,3 +16,6 @@ do
 		echo "process $_ has been killed!"
 	fi
 done
+
+rm process.out
+rm python_pids.out

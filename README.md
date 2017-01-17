@@ -26,3 +26,4 @@ An idea occurred to me to use shell script to do these duplicate jobs automatica
 Write all info of the processes into the process.out.
 Invoke the python script named get_particular_python_process_pids.py to get pids of particular python processes.
 Kill all the processes specified by the pids above.
+Then, remove all intermediate result.
