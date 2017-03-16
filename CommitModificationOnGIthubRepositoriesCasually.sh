@@ -9,10 +9,6 @@ python_demo_and_tool_path="/Users/zhaomingxing/PycharmProjects/python_demo_and_t
 path_arr=(
 	"/Users/zhaomingxing/IdeaProjects/hello_world/src/package_1" 
 	"/Users/zhaomingxing/Desktop/zmx/leetcode/leetcode_duplicate" 
-	"/Users/zhaomingxing/Desktop/zmx/Interesting-Github-Repositories/google-maps-services-java" 
-	"/Users/zhaomingxing/Desktop/zmx/MyResume" 
-	"/Users/zhaomingxing/PycharmProjects/models" 
-	"/Users/zhaomingxing/PycharmProjects/copyNet" 
 	"/Users/zhaomingxing/PycharmProjects/python_demo_and_tool" 
 	"/Users/zhaomingxing/PycharmProjects/ijcai-17-competition"
 	"/Users/zhaomingxing/Desktop/zmx/frontend_primer"
