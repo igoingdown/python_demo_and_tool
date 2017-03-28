@@ -13,6 +13,7 @@ path_arr=(
 	"/Users/zhaomingxing/PycharmProjects/ijcai-17-competition"
 	"/Users/zhaomingxing/Desktop/zmx/frontend_primer"
 	"/Users/zhaomingxing/PycharmProjects/seq2seq-pytorch-example"
+	"/Users/zhaomingxing/Desktop/zmx/MyResume"
 	"/Users/zhaomingxing/PycharmProjects/test_tensor")
 
 for path in ${path_arr[@]}
