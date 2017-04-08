@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Every time after i modified some files in the following repositories,
+# Every time after I modified some files in the following repositories,
 # Execute this bash script will be OK!
 # In this way, the auto_commit.sh file doesn't need duplicates any more.
 
@@ -14,6 +14,7 @@ path_arr=(
 	"/Users/zhaomingxing/Desktop/zmx/frontend_primer"
 	"/Users/zhaomingxing/PycharmProjects/seq2seq-pytorch-example"
 	"/Users/zhaomingxing/Desktop/zmx/MyResume"
+	"/Users/zhaomingxing/IdeaProjects/hello_world/src/package2"
 	"/Users/zhaomingxing/PycharmProjects/test_tensor")
 
 for path in ${path_arr[@]}
