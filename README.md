@@ -35,3 +35,6 @@ Invoke the python script named *get_particular_python_process_pids.py* to
 get pids of particular python processes.  
 Kill all the processes specified by the pids above.  
 Then, remove all intermediate result.
+
+# word2vec_demo.py
+A demo using word2vec model on Chinese text.
