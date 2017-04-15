@@ -24,16 +24,7 @@ def main():
                 alpha2words[c] = []
             alpha2words[c].append(n)
 
-    sorted(alpha2words.iteritems(), key=lambda d: len(d[1]))
-    for k, v in alpha2words.iteritems():
-        print k, v
-
-    dict2list = alpha2words.iteritems()
-    print dict2list
-    for x in dict2list:
-        print x[0], x[1]
-
-    res = sorted(dict2list, key=lambda d: len(d[1]))
+    res = sorted(alpha2words.iteritems(), key=lambda d: len(d[1]))
     for x in res:
         print x[0], ": ", x[1]
 
