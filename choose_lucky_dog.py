@@ -38,6 +38,4 @@ while len(lucky_dog_list) < lucky_dog_num:
 for lucky_dog in lucky_dog_list:
     print num_name_dict[lucky_dog]
 
-question = "what the fuck?"
-tokens = word_tokenize(question)
-print tokens
+print len(num_name_dict.keys())
