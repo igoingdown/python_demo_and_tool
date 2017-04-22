@@ -13,7 +13,6 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 import numpy as np
-from nltk import word_tokenize
 
 num_name_dict = {
                 1: "赵明星",
