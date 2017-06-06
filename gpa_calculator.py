@@ -1,16 +1,16 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 """
 ===============================================================================
 author: 赵明星
 desc:   计算本科GPA。
 ===============================================================================
 """
-
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 import xlrd
 
