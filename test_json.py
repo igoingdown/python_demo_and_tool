@@ -13,11 +13,16 @@ desc:   从进程描述文件中取出特定进程的pid并写入新的文件。
 ===============================================================================
 """
 
-with open("process.out", "r") as f:
-	with open("python_pids.out", "w") as f_w:
-		for line in f:
-			words = [x.strip() for x in line.split()]
-			if len(words) > 1 and words[1] == \
-				"ls_sub_rel_test_data_multi_thread.py":
-				print >> f_w, words[0]
+import json
+
+
+def test():
+    d = {'a': 10,
+         'c': [20, 30]}
+    json_d = json.dumps(d)
+    print json_d
+    print json.loads(json_d)
+
+if __name__ == '__main__':
+    test()
 
