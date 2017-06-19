@@ -12,6 +12,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+from backports import weakref
+
 class C:
     def __init__(self):
         self._a = 10

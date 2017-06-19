@@ -21,7 +21,7 @@ class Loginer():
                    '0MKKey':''  
                    }  
         postdata=urllib.urlencode(postdata)  
-        myRequest = urllib2.Request(url = self.loginUrl,data = postdata)  
+        myRequest = urllib2.Request(url = self.loginUrl, data = postdata)
         # myRequest.add_header('Referer','http://10.3.8.211/')
         # myRequest.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 UBrowser/1.0.739.0 Safari/537.36')
           
