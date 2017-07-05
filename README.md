@@ -48,3 +48,14 @@ Just the same as what you send when you use `git commit -m "commit motivation"`.
 ## buptgw.py
 This script is used to log in bupt gateway.
 To run this script, you need python2.7.
+
+
+
+## images
+
+This dir contains some iamges needed to show in this doc.
+
+![like this](https://github.com/igoingdown/python_demo_and_tool/blob/master/images/WechatIMG59.jpeg?raw=true)
+
+
+
