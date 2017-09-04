@@ -36,8 +36,17 @@ class Loginer():
 
 
 def main():
-    userID = "2012211402"
-    l = Loginer(userID, '000000')
+    # fun的本科账号
+    userID = "2012211406"
+    l = Loginer(userID, '123456')
+
+    # 我的研究生账号
+    # userID = "2016111459"
+    # l = Loginer(userID, "021655")
+
+    # 我的本科账号
+    # userID = "2012211402"
+    # l = Loginer(userID, "000000")
     l.login()
 
 if __name__ == '__main__':  

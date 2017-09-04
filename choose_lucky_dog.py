@@ -1,16 +1,17 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+
 """
 ===============================================================================
 author: 赵明星
 desc:   我们一起来抓阄。
 ===============================================================================
 """
-
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 import numpy as np
 
