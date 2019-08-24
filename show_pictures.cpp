@@ -13,8 +13,8 @@ using namespace cv;
 void showImages() {
     string image_dir = "./MeiZiTu/";
     for (int i = 0; i < 100; i++) {
-    Mat image;
-    namedWindow("beautiful");
+    	Mat image;
+    	namedWindow("beautiful");
         image = imread(image_dir + to_string(i) + ".jpg");
         imshow(to_string(i), image);
         waitKey(100);
