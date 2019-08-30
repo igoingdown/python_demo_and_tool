@@ -17,7 +17,7 @@ def foo():
         for line in f:
             lines.append(jieba.cut(line))
     d = gensim.corpora.Dictionary(lines)
-    for word, index in d.token2id.iteritems():
+    for word, index in d.token2id.items():
         print(word, index)
 
 
