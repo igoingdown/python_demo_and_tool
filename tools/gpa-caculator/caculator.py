@@ -24,7 +24,7 @@ class Calculator(object):
         for i in range(len(score_list)):
             gpa += float(score_list[i]) * weight_list[i]
             weight += weight_list[i]
-        print "total GPA is:", gpa/weight
+        print("total GPA is:", gpa/weight)
 
 
 if __name__ == "__main__":
