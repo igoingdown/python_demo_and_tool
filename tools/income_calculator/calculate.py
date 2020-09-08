@@ -69,4 +69,5 @@ class Calculator(object):
 
 
 if __name__ == "__main__":
-    pass
+    c = Calculator(36000, 6000, False)
+    c.print_annual_income_curve()
