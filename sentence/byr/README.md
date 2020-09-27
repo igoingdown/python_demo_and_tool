@@ -1,2 +1,0 @@
-fycjmingxing
-bbs,bt
