@@ -16,7 +16,7 @@ def main():
 
 
 def image_file_names_in_dir(dir):
-    return [name for name in os.listdir(IMAGES_PATH) for item in IMAGES_FORMAT if os.path.splitext(name)[1] == item]
+    return [name for name in os.listdir(dir) for item in IMAGES_FORMAT if os.path.splitext(name)[1] == item]
 
 
 def unify_image_width(base_width, file_names):
