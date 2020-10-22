@@ -68,4 +68,9 @@ This is a project I would like to share with you about the tools I wrote for eve
 test these packages with a demo before using it in any real project.
 * tools: Includes the common tools used in development, like crawler tools and image related tools.
 
-Help yourselves!
+## Personal Info
+<div align="center">
+    <img src="./doc/imgs/wechat.jpeg" width="100">
+</div>
+
+
