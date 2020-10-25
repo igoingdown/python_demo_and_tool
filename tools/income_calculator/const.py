@@ -7,14 +7,20 @@ desc:   计算新个税下的个人收入所需的常量列表。
 ===============================================================================
 """
 
-# MIN_BASE_UNEMPLOYMENT_INSURANCE_AND_PENSION 养老金和失业保险的缴纳基数下限
-MIN_BASE_UNEMPLOYMENT_INSURANCE_AND_PENSION = 3613
-# MAX_BASE_UNEMPLOYMENT_INSURANCE_AND_PENSION 养老金和失业保险的缴纳基数上限
-MAX_BASE_UNEMPLOYMENT_INSURANCE_AND_PENSION = 26541
+# MIN_BASE_PENSION_INSURANCE 养老保险的缴纳基数下限
+MIN_BASE_PENSION_INSURANCE = 3613
+# MAX_BASE_PENSION_INSURANCE 养老保险的缴纳基数上限
+MAX_BASE_PENSION_INSURANCE = 26541
+# PENSION_RATE 养老保险的个人缴纳比例
+PENSION_RATE = 0.08
+
+
+# MIN_BASE_UNEMPLOYMENT_INSURANCE 失业保险的缴纳基数下限
+MIN_BASE_UNEMPLOYMENT_INSURANCE = 3613
+# MIN_BASE_UNEMPLOYMENT_INSURANCE 失业保险的缴纳基数上限
+MAX_BASE_UNEMPLOYMENT_INSURANCE = 26541
 # UNEMPLOYMENT_INSURANCE_RATE 失业保险的个人缴纳比例
 UNEMPLOYMENT_INSURANCE_RATE = 0.002
-# PENSION_RATE 养老金的个人缴纳比例
-PENSION_RATE = 0.08
 
 
 # MIN_BASE_MEDICAL_INSURANCE 医疗保险的缴纳基数下限
@@ -43,6 +49,8 @@ BASE_FEE_MEDICAL = 3
 tax_free_house_rent_allowance = 1500
 # annual_tax_free_house_rent_allowance 个税租房专项减免全年总金额上限
 annual_tax_free_house_rent_allowance = 12000
+
+
 # base_tax_free_salary 个税起征点月薪
 base_tax_free_salary = 5000.0
 
